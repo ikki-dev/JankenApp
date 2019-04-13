@@ -12,6 +12,7 @@
 		562DA0CC22491E2500D1EBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CA22491E2500D1EBD6 /* Main.storyboard */; };
 		562DA0CE22491E2700D1EBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CD22491E2700D1EBD6 /* Assets.xcassets */; };
 		562DA0D122491E2700D1EBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CF22491E2700D1EBD6 /* LaunchScreen.storyboard */; };
+		562FAFDB22618B6B00B69F99 /* home_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 562FAFDA22618B6A00B69F99 /* home_background.png */; };
 		56313781224920F000335928 /* junken.png in Resources */ = {isa = PBXBuildFile; fileRef = 56313779224920F000335928 /* junken.png */; };
 		5631378C2249228200335928 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631378B2249228200335928 /* HistoryViewController.swift */; };
 		56313791224928FD00335928 /* gemeTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5631378D224928FD00335928 /* gemeTop.jpg */; };
@@ -49,6 +50,7 @@
 		562DA0CD22491E2700D1EBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562DA0D022491E2700D1EBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562DA0D222491E2700D1EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FAFDA22618B6A00B69F99 /* home_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_background.png; sourceTree = "<group>"; };
 		56313779224920F000335928 /* junken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = junken.png; sourceTree = "<group>"; };
 		5631378B2249228200335928 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		5631378D224928FD00335928 /* gemeTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gemeTop.jpg; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		56313777224920F000335928 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				562FAFDA22618B6A00B69F99 /* home_background.png */,
 				563997A0224A741900D42FF5 /* icon */,
 				5631379922492C3B00335928 /* result1.png */,
 				5631379A22492C3B00335928 /* result2.png */,
@@ -257,6 +260,7 @@
 				563997DB224A76FD00D42FF5 /* Icon-App-60x60@3x.png in Resources */,
 				562DA0CC22491E2500D1EBD6 /* Main.storyboard in Resources */,
 				56313794224928FD00335928 /* chyoki.jpg in Resources */,
+				562FAFDB22618B6B00B69F99 /* home_background.png in Resources */,
 				5631379D22492C3B00335928 /* result2.png in Resources */,
 				563997D5224A76FD00D42FF5 /* Icon-App-76x76@2x.png in Resources */,
 				563997D6224A76FD00D42FF5 /* Icon-App-20x20@1x.png in Resources */,
