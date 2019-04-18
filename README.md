@@ -11,4 +11,4 @@ JankenAppプロジェクトのiOSアプリリポジトリです。
 iOS開発を初めて取り組む方は参考にしてみると良いかもしれません。  
 アイコンなんかも自作してますので、もし良ければ参考になさってください！
 
-Copyright 2019 Ikki 
+Copyright 2019 Ikki Kobayashi
