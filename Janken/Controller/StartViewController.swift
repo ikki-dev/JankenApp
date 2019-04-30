@@ -9,21 +9,25 @@
 import UIKit
 
 class StartViewController: UIViewController {
-    
-    let screenWidth:CGFloat = UIScreen.main.bounds.size.width
-    let screenHeight:CGFloat = UIScreen.main.bounds.size.height
 
+    //画面サイズの取得
+    let screenWidth: CGFloat = UIScreen.main.bounds.size.width
+    let screenHeight: CGFloat = UIScreen.main.bounds.size.height
+
+    // MARK: LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        for uiv in view.subviews{
+
+        //TODO: AutoLayoutの処理を最適化
+        for uiv in view.subviews {
             uiv.setAutoLayout(width: screenWidth)
         }
+
     }
 
-   @IBAction func backToTop(segue: UIStoryboardSegue) {}
-    
+    ///ホームに戻るボタン
+    @IBAction func backToTop(segue: UIStoryboardSegue) {}
+    ///戦績を見るボタン
     @IBAction func backFromGameView(_ sender: Any) {}
-    
-}
 
+}

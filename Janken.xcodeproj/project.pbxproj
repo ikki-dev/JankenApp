@@ -12,13 +12,15 @@
 		562DA0CC22491E2500D1EBD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CA22491E2500D1EBD6 /* Main.storyboard */; };
 		562DA0CE22491E2700D1EBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CD22491E2700D1EBD6 /* Assets.xcassets */; };
 		562DA0D122491E2700D1EBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562DA0CF22491E2700D1EBD6 /* LaunchScreen.storyboard */; };
+		562FAFDB22618B6B00B69F99 /* home_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 562FAFDA22618B6A00B69F99 /* home_background.png */; };
+		562FAFDD226195EA00B69F99 /* base_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 562FAFDC226195EA00B69F99 /* base_background.png */; };
 		56313781224920F000335928 /* junken.png in Resources */ = {isa = PBXBuildFile; fileRef = 56313779224920F000335928 /* junken.png */; };
 		5631378C2249228200335928 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631378B2249228200335928 /* HistoryViewController.swift */; };
 		56313791224928FD00335928 /* gemeTop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5631378D224928FD00335928 /* gemeTop.jpg */; };
 		56313792224928FD00335928 /* par.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5631378E224928FD00335928 /* par.jpg */; };
 		56313793224928FD00335928 /* goo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5631378F224928FD00335928 /* goo.jpg */; };
 		56313794224928FD00335928 /* chyoki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56313790224928FD00335928 /* chyoki.jpg */; };
-		5631379622492B1C00335928 /* gameTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631379522492B1C00335928 /* gameTopViewController.swift */; };
+		5631379622492B1C00335928 /* GameTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631379522492B1C00335928 /* GameTopViewController.swift */; };
 		5631379822492BB200335928 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5631379722492BB200335928 /* ResultViewController.swift */; };
 		5631379C22492C3B00335928 /* result1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5631379922492C3B00335928 /* result1.png */; };
 		5631379D22492C3B00335928 /* result2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5631379A22492C3B00335928 /* result2.png */; };
@@ -49,13 +51,15 @@
 		562DA0CD22491E2700D1EBD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		562DA0D022491E2700D1EBD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		562DA0D222491E2700D1EBD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562FAFDA22618B6A00B69F99 /* home_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_background.png; sourceTree = "<group>"; };
+		562FAFDC226195EA00B69F99 /* base_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = base_background.png; sourceTree = "<group>"; };
 		56313779224920F000335928 /* junken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = junken.png; sourceTree = "<group>"; };
 		5631378B2249228200335928 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		5631378D224928FD00335928 /* gemeTop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gemeTop.jpg; sourceTree = "<group>"; };
 		5631378E224928FD00335928 /* par.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = par.jpg; sourceTree = "<group>"; };
 		5631378F224928FD00335928 /* goo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goo.jpg; sourceTree = "<group>"; };
 		56313790224928FD00335928 /* chyoki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chyoki.jpg; sourceTree = "<group>"; };
-		5631379522492B1C00335928 /* gameTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameTopViewController.swift; sourceTree = "<group>"; };
+		5631379522492B1C00335928 /* GameTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTopViewController.swift; sourceTree = "<group>"; };
 		5631379722492BB200335928 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		5631379922492C3B00335928 /* result1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result1.png; sourceTree = "<group>"; };
 		5631379A22492C3B00335928 /* result2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result2.png; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 		56313777224920F000335928 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				562FAFDC226195EA00B69F99 /* base_background.png */,
+				562FAFDA22618B6A00B69F99 /* home_background.png */,
 				563997A0224A741900D42FF5 /* icon */,
 				5631379922492C3B00335928 /* result1.png */,
 				5631379A22492C3B00335928 /* result2.png */,
@@ -149,7 +155,7 @@
 			children = (
 				562DA0C822491E2500D1EBD6 /* StartViewController.swift */,
 				5631378B2249228200335928 /* HistoryViewController.swift */,
-				5631379522492B1C00335928 /* gameTopViewController.swift */,
+				5631379522492B1C00335928 /* GameTopViewController.swift */,
 				5631379722492BB200335928 /* ResultViewController.swift */,
 			);
 			path = Controller;
@@ -195,6 +201,7 @@
 				562DA0BF22491E2500D1EBD6 /* Sources */,
 				562DA0C022491E2500D1EBD6 /* Frameworks */,
 				562DA0C122491E2500D1EBD6 /* Resources */,
+				56F37D052274082B00F78F63 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -257,6 +264,7 @@
 				563997DB224A76FD00D42FF5 /* Icon-App-60x60@3x.png in Resources */,
 				562DA0CC22491E2500D1EBD6 /* Main.storyboard in Resources */,
 				56313794224928FD00335928 /* chyoki.jpg in Resources */,
+				562FAFDB22618B6B00B69F99 /* home_background.png in Resources */,
 				5631379D22492C3B00335928 /* result2.png in Resources */,
 				563997D5224A76FD00D42FF5 /* Icon-App-76x76@2x.png in Resources */,
 				563997D6224A76FD00D42FF5 /* Icon-App-20x20@1x.png in Resources */,
@@ -266,6 +274,7 @@
 				563997D4224A76FD00D42FF5 /* Icon-App-20x20@2x.png in Resources */,
 				56313781224920F000335928 /* junken.png in Resources */,
 				563997DA224A76FD00D42FF5 /* Icon-App-40x40@1x.png in Resources */,
+				562FAFDD226195EA00B69F99 /* base_background.png in Resources */,
 				5631379E22492C3B00335928 /* result3.png in Resources */,
 				563997CE224A76FD00D42FF5 /* Icon-App-29x29@1x.png in Resources */,
 				563997DC224A76FD00D42FF5 /* Icon-App-29x29@3x.png in Resources */,
@@ -273,6 +282,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56F37D052274082B00F78F63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint autocorrect --format\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		562DA0BF22491E2500D1EBD6 /* Sources */ = {
@@ -283,7 +312,7 @@
 				562DA0C922491E2500D1EBD6 /* StartViewController.swift in Sources */,
 				563137A02249B61000335928 /* extensionUIVIew.swift in Sources */,
 				562DA0C722491E2500D1EBD6 /* AppDelegate.swift in Sources */,
-				5631379622492B1C00335928 /* gameTopViewController.swift in Sources */,
+				5631379622492B1C00335928 /* GameTopViewController.swift in Sources */,
 				5631378C2249228200335928 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.janken.Janken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dev.janken.Janken;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
